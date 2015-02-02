@@ -1,0 +1,25 @@
+{
+    "name": "whirlpool/whirlpool",
+    "description": "An MVC framework based on Composer components.",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "whirlpool",
+        "mvc"
+    ],
+    "authors": [
+        {
+            "name": "Tom Wright",
+            "email": "contact@tomwright.me",
+            "homepage": "http://tpwright.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "whirlpool/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+        }
+    }
+}

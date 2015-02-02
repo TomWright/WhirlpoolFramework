@@ -1,0 +1,4 @@
+vendor
+src
+.idea
+application/config/database.php
