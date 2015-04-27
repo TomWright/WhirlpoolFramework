@@ -109,3 +109,21 @@ Hooks should be created in `config/hooks.php` in the following format:
 | whirlpool-controller-initialized | controller, action  | When the main controller has just been instantiated. |
 | whirlpool-executed-action        | response            | When an action has just been executed.               |
 | whirlpool-class-not-found        | class               | When the Whirlpool autoloader cannot find a class.   |
+
+### Dependency Injection
+You can use dependency injection in your classes very easily. Just include a type hint to your class constructor!
+
+    class SomeObject()
+    {
+        public function output()
+        {
+            echo "Hello World.";
+        }
+    }
+    class MyController {
+        public function __construct(SomeObject $ob)
+        {
+            $ob->output();
+        }
+    };
+    $controller = Whirlpool::make('MyController');
