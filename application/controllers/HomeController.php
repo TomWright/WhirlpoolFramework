@@ -13,7 +13,10 @@ class HomeController extends BaseController
 
     public function helloWorldAction()
     {
-        echo 'Hello World';
+        $this->displayView('helloWorld', array(
+            'name' => 'Tom',
+            'age' => 22,
+        ));
     }
 
 }
