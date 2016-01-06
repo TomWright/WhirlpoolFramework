@@ -19,9 +19,16 @@ the "public" directory as your web/document root.
 Getting Started
 ---------------
 ### Routing
-Routes are located at `application/routes.php`. You can set up routes in here that map to a specific controller and method.
+By default, routes are located at `application/routes.php`. You can add/remove more route definition locations by looking in `config/routing.php` under `routeFiles`.
+
+    // If a user comes in on this url: site.com/my-page
+    // And we want to execute a method in this controller: GeneralController
+    // With a name of: myPageAction
+    // We would add the following route definition.
+    $r->addRoute('GET', '/my-page', 'general@myPage');
+
 If no method is specified the default will be used which can be found in `config/routing.php`.
-For more help with creating routes please see [Aura.Router](https://github.com/auraphp/Aura.Router)
+For more help with creating routes please see [FastRoute](https://github.com/nikic/FastRoute)
 
 ### Controllers
 Controllers are located at `application/controllers`. Each method that can be an action should be followed by "Action".
