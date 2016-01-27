@@ -17,4 +17,4 @@ define('REGEX_ALNUM', '[a-zA-Z0-9]+');
 define('REGEX_ALNUM_DASH', '[a-zA-Z0-9\-]+');
 define('REGEX_INT', '[0-9]{1,10}');
 
-$r->addRoute('GET', '/', 'home@helloWorld');
+$r->addRoute('GET', '/', '\\App\\Controllers\\Home@helloWorld');

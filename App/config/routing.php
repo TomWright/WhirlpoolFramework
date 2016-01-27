@@ -2,7 +2,7 @@
 
 $config = [];
 
-$config['notFoundController'] = 'error';
+$config['notFoundController'] = '\\App\\Controllers\\Error';
 
 $config['notFoundAction'] = 'index';
 

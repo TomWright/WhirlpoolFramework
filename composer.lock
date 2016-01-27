@@ -327,16 +327,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25"
+                "reference": "1289d16209491b584839022f29257ad859b8532d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/49ff736bd5d41f45240cec77b44967d76e0c3d25",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
+                "reference": "1289d16209491b584839022f29257ad859b8532d",
                 "shasum": ""
             },
             "require": {
@@ -348,7 +348,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -382,7 +382,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2015-11-20 09:19:13"
+            "time": "2016-01-20 09:13:37"
         },
         {
             "name": "symfony/translation",
@@ -507,16 +507,16 @@
         },
         {
             "name": "whirlpool/framework",
-            "version": "0.0.19",
+            "version": "0.0.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TomWright/Whirlpool.git",
-                "reference": "850b88ca47b0ce7c62a64f6eebc36747d5e59bbb"
+                "reference": "62f3cb393e1d95b88eb4bea6abe9c1715f2904f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TomWright/Whirlpool/zipball/850b88ca47b0ce7c62a64f6eebc36747d5e59bbb",
-                "reference": "850b88ca47b0ce7c62a64f6eebc36747d5e59bbb",
+                "url": "https://api.github.com/repos/TomWright/Whirlpool/zipball/62f3cb393e1d95b88eb4bea6abe9c1715f2904f4",
+                "reference": "62f3cb393e1d95b88eb4bea6abe9c1715f2904f4",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Whirlpool\\": "src/whirlpool/"
+                    "Whirlpool\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -546,7 +546,7 @@
                 "mvc",
                 "whirlpool"
             ],
-            "time": "2016-01-05 23:55:17"
+            "time": "2016-01-27 18:53:04"
         }
     ],
     "packages-dev": [],

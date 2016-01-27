@@ -1,8 +1,10 @@
 <?php
 
+namespace App\Controllers;
+
 use Whirlpool\BaseController;
 
-class HomeController extends BaseController
+class Home extends BaseController
 {
 
     public function __construct()

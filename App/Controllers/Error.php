@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controllers;
+
 use Whirlpool\BaseController;
 
 class ErrorController extends BaseController
